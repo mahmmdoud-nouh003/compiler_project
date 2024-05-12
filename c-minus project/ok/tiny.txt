@@ -1,0 +1,71 @@
+	1: reserved word: int
+	1: ID, name= oneOrZero
+	1: left paren:(
+	1: reserved word: int
+	1: ID, name= x
+	1: comma: ,
+	1: reserved word: int
+	1: ID, name= y
+	1: right paren:)
+	2: open curly bracket:{
+	2: reserved word: if
+	2: left paren:(
+	2: ID, name= x
+	2: OP, equal: ==
+	2: NUM, val= 0
+	2: right paren:)
+	3: reserved word: return
+	3: ID, name= x
+	3: SEMI_colon: ;
+	4: reserved word: else
+	5: reserved word: return
+	5: ID, name= x
+	5: over: /
+	5: ID, name= y
+	5: SEMI_colon: ;
+	6: close curly bracket:}
+	7: reserved word: void
+	7: ID, name= main
+	7: left paren:(
+	7: reserved word: void
+	7: right paren:)
+	8: open curly bracket:{
+	8: reserved word: int
+	8: ID, name= x
+	8: SEMI_colon: ;
+	9: ID, name= x
+	9: OP, Assign: =
+	9: NUM, val= 10
+	10: ID, name= y
+	10: OP, Assign: =
+	10: NUM, val= 5
+	11: reserved word: while
+	11: left paren:(
+	11: ID, name= x
+	11: OP, greater than or equal: <=
+	11: NUM, val= 0
+	11: right paren:)
+	11: ID, name= x
+	11: OP, Assign: =
+	11: ID, name= x
+	11: OP, minus: -
+	11: NUM, val= 1
+	11: SEMI_colon: ;
+	12: reserved word: if
+	12: left paren:(
+	12: ID, name= x
+	12: OP, not equal: !=
+	12: NUM, val= 0
+	12: right paren:)
+	12: ID, name= write
+	12: left paren:(
+	12: ID, name= oneOrZero
+	12: left paren:(
+	12: ID, name= x
+	12: comma: ,
+	12: ID, name= y
+	12: right paren:)
+	12: right paren:)
+	12: SEMI_colon: ;
+	13: close curly bracket:}
+	14: EOF
